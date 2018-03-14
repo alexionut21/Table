@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Sans-serif;
-  background: #2c3e50;
+  background: #f7ede3;
 }
 
 #wrap {
@@ -16,11 +16,11 @@ body {
 
 #regbar {
   height: 67px;
-  background: #34495e;
+  background: #8f9121;
 }
 
 #navthing {
-  margin-left: 1200px;
+  margin-left: 1100px;
 }
 
 h2 {
