@@ -1,0 +1,13 @@
+.quotes{
+	font-family: 'Gloria Hallelujah', cursive;
+	width: 30%;
+	padding: 6%;
+	line-height: 1.2;
+	text-align: justify;
+	text-align:center;
+	margin: 1% 0% 0% 30%;
+	font-size: 30px;
+	-ms-text-align-last: middle;
+	-moz-text-align-last: middle;
+	text-align-last: middle;
+ }
