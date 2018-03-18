@@ -32,7 +32,7 @@ fieldset {
   border: none;
 }
 
-.login,.register {
+.login {
   position: relative;
   width: 350px;
   display: none;

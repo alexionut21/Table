@@ -1,5 +1,7 @@
 .row{
-  padding-top:440px;  
+  padding-top:100px;
+	padding-bottom:50px;
+	padding-left:110px;
 }
 .flip {
   -webkit-perspective: 800;   
@@ -12,15 +14,17 @@
           transform: rotatey(-180deg);
 }
 .flip .card {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     -webkit-transform-style: preserve-3d;
     -webkit-transition: 0.5s;
     transform-style: preserve-3d;
     transition: 0.5s;
-    background-color: #fff;
+	
+	
    
 }
+
 .flip .card .face {
   -webkit-backface-visibility: hidden ;
     backface-visibility: hidden ;
@@ -28,21 +32,38 @@
 }
 .flip .card .front {
    position: absolute;
-   width: 300px;
+  width: 350px;
    z-index: 1;
 }
-.flip .card .img {
-   position: relaitve;
-   width: 300px;
-   height: 300px;
-   z-index: 1;
-   border: 2px solid #000;
+
+.imgDiet{
+	background-image:url('https://slankekurdervirker.dk/wp-content/uploads/Kostplan.jpg');
+	 background-size: cover;
+  width: 350px;
+  height: 350px;
+   background-repeat:no-repeat;
 }
+
+.imgCCalc{
+	background-image:url('https://is3-ssl.mzstatic.com/image/thumb/Purple1/v4/89/85/50/89855052-8e5c-54fc-2dd2-552c695c9476/pr_source.png/1200x630bb.jpg');
+	 background-size: cover;
+   width: 350px;
+   height: 350px;
+   background-repeat:no-repeat;
+}
+
+.imgTraining{
+	background-image:url('https://cdn.gymaholic.co/articles/fitness/17-tavi-castro/1-tavi-castro-workout-and-diet.jpg');
+	 background-size: cover;
+  width: 350px;
+   height: 350px;
+   background-repeat:no-repeat;
+}
+
 .flip .card .back {
   padding-top: 10%;
   -webkit-transform: rotatey(-180deg);
           transform: rotatey(-180deg);
 }
   .inner{margin:0px !important;}
- 
  
