@@ -81,17 +81,52 @@ input.invalid {
   
 }
 .btn.rounded .text-green {
-  color: #00F0B5;
+  color: #8f9121;
   mix-blend-mode: difference;
 }
 .btn.rounded::before {
   border-radius: 50px;
   width: 25%;
-  background: #00F0B5;
+  background: #8f9121;
 }
 .btn.rounded:hover::before {
-  background: #00F0B5;
+  background: #8f9121;
   width: 100%;
+}
+#frame {
+
+  display: flex;
+  flex-flow: row no-wrap;
+} 
+#frame input {
+  visibility:hidden;
+}
+#frame .block {
+    display: block;
+    width: 10%;
+	padding:20px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border:3px solid #8f9121;
+     outline:none;
+}
+#frame .block:before {
+    display: block;
+    width: 10%;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border:3px solid #8f9121;
+     outline:none;
+}
+#frame input:checked + .block, #frame .block:hover {
+  background-color: #8f9121;
+}
+#frame .block:active {
+  background-color: #8f9121;
 }
 
 

@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="loginCSS.css">
 	<link rel="stylesheet" href="menu.css">
 	<link rel="stylesheet" href="register.css">
+
+	
 	<body>
 	<div id="wrap">
   <div id="regbar">
@@ -93,7 +95,14 @@
 </div>
 
 <div class="tab">How you better describe yourself:
-  <p><input placeholder="StressLevel" oninput="this.className = ''"></p>
+  <br><br><p  id='frame'><input id='one' type="radio" name="options" autocomplete="off">
+            <label class='block' for='one'></label>
+			<input id='two' type="radio" name="options" autocomplete="off">
+            <label class='block' for='two'></label>
+			 <input id='three' type="radio" name="options" autocomplete="off">
+            <label class='block' for='three'></label>
+						
+			</p>
 </div>
 
 <div class="tab">How you better describe yourself:
@@ -124,6 +133,7 @@
 
 <!-- Circles which indicates the steps of the form: -->
 <div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
   <span class="step"></span>
   <span class="step"></span>
   <span class="step"></span>
