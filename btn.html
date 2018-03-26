@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  flex-flow: row no-wrap;
+} 
+#frame input {
+  display: visible;
+}
+#frame .block {
+      display: block;
+    width: 7%;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    padding: 26px 20px;
+    cursor: pointer;
+    border:5px solid green;
+     outline:none;
+}
+#frame .block:before {
+    display: block;
+    width: 7%;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    padding: 26px 20px;
+    cursor: pointer;
+    border:5px solid green;
+     outline:none;
+}
+#frame input:checked + .block, #frame .block:hover {
+  background-color: green;
+}
+#frame .block:active {
+  background-color: green;
+}
+</style> 
+</head>
+<body>
+<form method="post" id='frame'>
+
+            <input id='one' type="radio" name="options" autocomplete="off">
+            <label class='block' for='one'></label>
+
+            <input id="two" type="radio" name="options" autocomplete="off">
+            <label class='block' for='two'></label>
+</form>
+</body>
+</html>  

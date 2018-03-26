@@ -94,7 +94,6 @@ input.invalid {
   width: 100%;
 }
 #frame {
-
   display: flex;
   flex-flow: row no-wrap;
 } 
@@ -116,11 +115,12 @@ input.invalid {
     display: block;
     width: 10%;
     border-radius: 50%;
+	padding:20px;
     background-color: transparent;
     color: black;
     cursor: pointer;
     border:3px solid #8f9121;
-     outline:none;
+    outline:none;
 }
 #frame input:checked + .block, #frame .block:hover {
   background-color: #8f9121;
