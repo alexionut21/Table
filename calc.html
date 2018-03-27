@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<title>Calorie Calculator - Daily Caloric Needs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="calc.css" type="calc.css">
+<link rel="preload" href="/images/freedieting-logo.png" as="image">
+<link rel="preload" as="font" href="/fonts/source-sans-pro-v11-latin-regular.woff2" type="font/woff2" crossorigin/>
+<link rel="preload" as="font" href="/fonts/source-sans-pro-v11-latin-700.woff2" type="font/woff2" crossorigin/>
+  
+<!-- This site is optimized with the Yoast SEO plugin v7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.freedieting.com/calorie-calculator" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+  </head>
+<body>
+<section class="container">
+  <div class="row">
+    <div class="col-12 header"> <a class="logo" href="/">Freedieting</a>
+      <div class="float-right"><a href="#nav" class="btn btn-blue" id="nav-toggle">MENU <span class="caret"></span></a>
+        <form class="hidden-sm no-space-bottom" action="/search" id="cse-search-box">
+          <input type="hidden" name="cx" value="partner-pub-7631617293200731:428ny14vvs5" />
+          <input type="hidden" name="cof" value="FORID:11" />
+          <input type="hidden" name="ie" value="ISO-8859-1" />
+          <input type="text" class="input-inline" name="q" />
+          <button type="submit" name="sa" value="Search" class="btn" >Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="row float-right"></div>
+  <div class="row space-top content">
+    <div class="col-12 col-sm-3 col-lg-2">
+      <div id="nav">
+        <ul class="nav text-small space-bottom">
+          <li class="hidden-sm nav-header">DIETS &amp; PLANS</li>
+          <li><a href="/best-diet-plans">Top 6 Diets</a></li>
+          <li><a href="/d/diets">All Diet Reviews</a></li>
+          <li class="hidden-sm"><a href="/diet-delivery-services">Diet Delivery</a> </li>
+          <li class="hidden-sm">&nbsp;</li>
+          <li class="hidden-sm nav-header">LOSING WEIGHT</li> 
+          <li><a href="/weight-loss-tips">Tips and Guides</a></li>
+          <li><a href="/weight-loss-tools">Calculators</a></li>
+          <li><a href="/exercise">Workout Plans</a> </li>
+          <li class="hidden-sm"><a href="/diet-software">Calorie Trackers</a></li>
+          <li class="hidden-sm">&nbsp;</li>
+          <li class="hidden-sm nav-header">FOODS TO EAT </li>
+          <li><a href="/calories-in-food">Calories in Food </a></li>
+          <li><a href="/foods-for-fat-loss">Foods for Fat Loss</a></li>
+          <li class="hidden-sm">&nbsp;</li>
+          <li class="hidden-sm nav-header">CALCULATORS</li>
+          <li class="hidden-sm"><a href="/calorie-calculator">Daily Calorie Needs</a></li>
+          <li class="hidden-sm"><a href="/bmi-calculator">BMI</a></li>
+          <li class="hidden-sm"><a href="/ideal-body-weight">Ideal Body Weight</a></li>
+          <li class="hidden-sm"><a href="/nutrient-calculator">Macro Ratios</a></li>
+          <li class="hidden-sm"><a href="/body-fat-calculator">Body Fat % </a></li>
+          <li class="hidden-sm"><a href="/calories-burned">Calories Burned</a></li>
+          <li class="hidden-sm">&nbsp;</li>
+          <li class="hidden-sm nav-header">FREE STUFF </li>
+          <li class="hidden-sm"><a href="/free-diet-plans">Free Diet Plans</a></li>
+        </ul>
+      </div>
+      <div class="hidden-sm callout text-center space-bottom">"I lost 65+ pounds using your calorie calculator" <a class="callout-button" href="/calorie-calculator">Try it <span>It's free</span></a> </div>
+    </div>
+    <!-- Left sidebar -->
+    <div class="col-12 col-sm-9 col-lg-7"> 
+
+<h1>Calorie Calculator &#8211; Daily Caloric Needs</h1>
+	                     <style type="text/css">
+.displayNone { display:none; }
+.displayBlock { display:block !important; }
+#advanced { background-color: #FFFFFF; border: 1px solid #DEDEDE; display: none; font-size: 0.8125em; margin-left: auto; margin-right: auto; max-width: 350px; padding: 2%; }
+.tooltable td { border-width:0; }
+#zigResultsTable td { padding: 0px 4px 0px 4px; border:1px solid #d9d9d9; border-right:0; border-left:0; }
+#zigResultsTable { width:100%; }
+.small { font-size:13px; }
+table.formulas .small { font-size:12px; }10
+#nowwhat { min-width:75%; background: #d6d6d6; background: rgba(0, 0, 0, 0.06); border-radius: 3px; padding: 6px 12px; }
+</style>
+<script>
+/* Javascript code copyright Freedieting 2018
+Do not copy or reuse */
+function init() {
+	get("age").focus();
+	oForm = document.calc;
+	if (oForm.height[0].checked) { 
+	   showFeet(); }
+	   else 
+	   {
+	showCM();
+	}
+}
+
+document.addEventListener('DOMContentLoaded', init, false);
+
+function showFeet() {
+	var divblock = document.getElementById("feetlabel");
+	divblock.style.display = "block";
+	var cmblock = document.getElementById("cmlabel");
+	cmblock.style.display = "none";
+}
+
+function showCM() {
+	var divblock = document.getElementById("feetlabel");
+	divblock.style.display = "none";
+	var cmblock = document.getElementById("cmlabel");
+	cmblock.style.display = "block";
+}
+
+function toggleMe(trigger, div) {
+  toggleClass(document.getElementById(div),"displayBlock");
+}</script>
+ <noscript>
+      <div class="alert">Hey! You have JavaScript disabled on your browser. The calculator will not work. <a target="_blank" href="http://www.enable-javascript.com/">See how to enable JavaScript on your browser.</a></div>
+      </noscript>
+<div class="tooltable">
+        <form name="calc" class="no-space-bottom">
+          <h2>DAILY CALORIC INTAKE CALCULATOR</h2>
+          <div class="label-align">
+            <label>Age</label>
+            <span id="ageerror"><span class="tip"></span>
+            <input name="age" type="number" id="age" autocorrect="off">
+            <label class="inline">Years </label>
+            </span> </div>
+          <div class="label-align">
+            <label>Gender</label>
+            <input type="radio" name="sex" id="sexFem" value="F" checked>
+            <label for="sexFem" class="inline">Female</label>
+            <input type="radio" name="sex" id="sexMale" value="M">
+            <label for="sexMale" class="inline">Male</label>
+          </div>
+          <div class="label-align">
+            <label>Current Weight</label>
+            <span id="weighterror"><span class="tip"></span>
+            <input name="weight"  type="number" id="weight"  autocorrect="off">
+            </span>
+            <input name="weighttype" type="radio" class="rad" id="weighttype1" value="P" checked>
+            <label for="weighttype1" class="inline">Pounds</label>
+            <input name="weighttype" type="radio" class="rad" id="weighttype2" value="K">
+            <label for="weighttype2" class="inline">Kilos</label>
+          </div>
+          <div class="label-align">
+            <label>Height</label>
+            <input name="height" type="radio" class="rad" id="heightFeet" value="F" checked onclick="showFeet();">
+            <label class="inline" for="heightFeet">Feet &amp; Inches</label>
+            <input name="height" type="radio" class="rad" id="heightCM" value="C" onclick="showCM();">
+            <label  class="inline" for="heightCM">CMs</label>
+            <div id="feetlabel">
+              <label>Feet</label>
+              <span id="feeterror"><span class="tip"></span>
+              <input name="feet" type="number" id="feet" autocorrect="off" >
+              </span>
+              <label class="inline">Inches</label>
+              <span id="incheserror"><span class="tip"></span>
+              <input name="inches" type="number"  id="inches" autocorrect="off">
+              </span> </div>
+            <div id="cmlabel" style="display:none;">
+              <label>CM</label>
+              <span id="cmerror"><span class="tip"></span>
+              <input name="cm" type="number" id="cm" autocorrect="off">
+              </span> </div>
+          </div>
+          <div class="label-align">
+            <label>Exercise level</label>
+            <select name="activity" id="activity">
+              <option value="1.0" >Basal Metabolic Rate</option>
+              <option value="1.2" >Little/no exercise</option>
+              <option  selected="true" value="1.375">3 times/week</option>
+              <option value="1.4187">4 times/week</option>
+              <option value="1.4625">5 times/week</option>
+              <option value="1.550">Daily</option>
+              <option value="1.6375">5 times/week (intense)</option>
+              <option value="1.725">Daily (intense) or twice daily</option>
+              <option value="1.9">Daily exercise + physical job</option>
+            </select>
+            <div class="formnote">Exercise = 15-30 mins elevated heart rate. <br />
+              Intense = 45+ mins elevated heart rate.</div>
+          </div>
+          <div class="text-center dropdown-calc"> <a class="btn" href="#" onClick="toggleMe(this,'advanced');return false;"><i class="icon-cogs"></i> Advanced Options</a></div>
+          <div id="advanced">
+            <label class="text-bold">Results in</label>
+            <input name="optResults" type="radio" class="rad" id="optResults" value="C" checked>
+            <label for="optResults" class="inline">Calories</label>
+            <input name="optResults" type="radio" class="rad" id="optResults2" value="K">
+            <label for="optResults2" class="inline">Kilojoules</label>
+            <label class="text-bold">Formula</label>
+            <input type="radio" class="rad" name="optFormula" id="optMS" value="M" checked onClick="document.getElementById('txtBF').disabled=true;">
+            <label for="optMS" class="inline">Mifflin-St Jeor</label>
+            <br />
+            <input type="radio" class="rad"  name="optFormula" id="optLM" value="L"   onClick="document.getElementById('txtBF').disabled=false;document.getElementById('txtBF').focus();">
+            <label for="optLM" class="inline">Katch-McArdle: Enter <a href="https://www.freedieting.com/body-fat-calculator" target="_blank">Body Fat %</a></label>
+            <span id="bferror"><span class="tip"></span>
+            <input name="txtBF" type="number" class="text-small input-inline" id="txtBF" size="2" disabled="disabled">
+            <br />
+            <input type="radio" class="rad"  name="optFormula" id="optHB" value="H" onClick="document.getElementById('txtBF').disabled=true;">
+            <label for="optHB" class="inline">Harris-Benedict</label>
+            </span>
+            <div class="text-center"> <a href="/calorie-needs" target="_blank">Explain formulas</a></div>
+          </div>
+          <div class="space-top-large">
+            <input type="submit" class="btn btn-blue btn-large float-center text-tall" value="Calculate" onClick="calcalcIt();cancelDefaultAction(event);" id="Button1" name="Button1">
+          </div>
+          <div id="printArea" style="display:none;">
+            <div id="printAreainset">
+              <h2 id="results">TOTAL CALORIES</h2>
+              <div class="tooltable float-center" style="min-width:80%;padding-right:0;padding-left:0;">
+                <p><label class="text-center">Including Exercise</label></p>
+                <table width="100%"  border="0" cellspacing="0" cellpadding="0" style="box-shadow:none;">
+                  <tr>
+                    <td align="right" class="tooltable-cell-width"><label class="biglabel">Maintenance</label></td>
+                    <td   align="left" class="tooltable-cell-width"><div class="calwrap"><span id="answer">?</span><span id="cal1" class="cal">CALORIES/DAY</span></div></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><label class="biglabel"><a href="/weight-loss-guide">Fat Loss</a></label></td>
+                    <td align="left"><div class="calwrap"><span id="lose">?</span><span id="cal2" class="cal">CALORIES/DAY</span></div></td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="middle"><label class="biglabel"><a  href="/weight-loss-fast">Extreme Fat Loss</a></label></td>
+                    <td  align="left"><div class="calwrap"><span id="loseExt">?</span><span id="cal3" class="cal">CALORIES/DAY</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="center"><div class="dropdown-calc"><a class="btn btn-blue" href="#" onClick="toggleMe(this,'zigResults');return false;">7 day calorie cycle (zig-zag)</a></div></td>
+                  </tr>
+                </table>
+                <div id="zigResults" class="displayNone scrollable" style="background-color:#fff;box-shadow:-5px 0 10px -5px #555 inset;">
+                  <table id="zigResultsTable"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td align="right"><strong>Maintain</strong></td>
+                      <td align="right" bgcolor="#efefef"><strong>Fat Loss</strong></td>
+                      <td align="right"><strong>Extreme Fat Loss</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Monday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Tuesday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Wednesday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Thursday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Friday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Saturday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Sunday</strong></td>
+                      <td align="right">&nbsp;</td>
+                      <td align="right" bgcolor="#efefef">&nbsp;</td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+ <div style="margin:10px 0px 10px 0;text-align:right;"><a style="text-decoration:none;color:#aaa;" href="#" onClick="printThis('printAreainset');return false;" title="Print results"><img src="/images/print-icon.png" style="vertical-align:middle;" width="17" height="19" alt="Print results"> Print</a></div>
+            <div id="nowwhat" class="float-center"><b>Now what?</b>
+              <ol>
+                <li>Read the rest of this page: It's really helpful.</li>
+                <li>See meal plans for <a href="/1100-calorie-diet">1100 calories</a>, <a href="/1200-calorie-diet">1200</a>, <a href="/1350-calorie-diet">1350</a>, <a href="/1400-calorie-diet" >1400</a>, <a href="/1500-calorie-diet">1500</a> (<a href="/free-diet-plans">more plans here</a>).</li>
+                <li><strong>Thinking of doing Keto?</strong> <a href="http://4cd684v5xeqy1qaef8uow8vi56.hop.clickbank.net/?tid=FDCC">This program</a> by Healthful Pursuit is one of the best.</li>
+                <li>See what <a href="/low-cal-meals">low calorie meals look like</a>.</li>
+                <li>Experts: Tweak carb/fat/protein with our <a href="/nutrient-calculator" id="linkNutrient" >macro calculator</a>.</li>
+                <li>Tracking your food? Use <a href="http://www.myfooddiary.com/?aID=228">My Food Diary</a> (web/mobile - easy to use) or Cronometer (<a href="https://itunes.apple.com/us/app/cronometer-ad-free/id465173198?mt=8&amp;at=10l4LQ">iPhone</a> | <a href="https://play.google.com/store/apps/details?id=com.cronometer.android&amp;hl=en">Android</a>).</li>
+              </ol>
+            </div>
+          </div>
+        </form>
+      </div>
+<div class='code-block code-block-3' style='text-align: center; margin: 30px auto;'>
+<h2> How Many Calories Should I Eat? </h2>
+<p><strong>One-size-fits-all <a href="/calories-nutrition">calorie recommendations</a> do not work</strong>. They must be customized to each individual. </p>
+<p>To accurately determine your daily calorie amount above, enter your current weight, age, height, and gender into the calculator. <strong>Do your best estimate of how much exercise you will be doing</strong>.
+</p>
+<p>The results will show how many calories you may eat in order to maintain or <a href="/weight-loss-guide">lose weight</a>. You don&#8217;t need to adjust this depending on your exercise rate &#8211; that is factored into the equation. The maintenance value is the same as what some people call Total Daily Energy Expenditure (TDEE).</p>
+<p class="note">As you lose weight <strong>you will need to recalculate based on your new weight</strong>.</p>
+<h2>Calories for Fat Loss </h2>
+<div class='code-block code-block-4' style='text-align: center; margin: 30px auto;'>
+<p>Science tells us that 1 pound of fat is equal to 3500 calories, so a daily calorie deficit of 500 should result in 1 pound per week fat loss.</p>
+<p> <strong>In reality things don&#8217;t quite work that efficiently! </strong></p>
+<p>Generally, a person&#8217;s energy expenditure becomes less as they get lighter &#8211; meaning that you will inevitably plateau. The amount of food intake that once resulted in weight loss, will now only maintain<sup><a href="#cite_2">2</a></sup>.</p>
+<p class="note"><strong>Need help with the basics of weight loss?</strong>  <a href="/weight-loss-guide">Read our straight-forward guide</a>.</p>
+<h3>Warning!</h3>
+<p><strong>Always try to aim for the &quot;Fat Loss&quot; daily calorie level.</strong></p>
+<p> The &quot;Extreme Fat Loss&quot; level is effectively a <strong>rock bottom calorie level</strong>. Do not attempt to immediately drop your calories to this level hoping for the quick fix. This may ultimately backfire. </p>
+<p><strong>The Extreme Fat Loss level shows the lowest calorie amount<br />
+        that can be considered</strong>. It should be seen as the exception rather than the rule. </p>
+<p><em>It truly is better to burn the fat than to starve it. </em></p>
+<h2>The Weight Loss Plateau</h2>
+<p><strong>Why use the 7-day Calorie Cycle (Zig-Zag)?</strong></p>
+<p>Over time our bodies adapt to a lowered calorie level.</p>
+<p> Our body becomes more efficient at using energy (lowered metabolism), and therefore burns less fat.<br />
+        This is why most of us reach a weight loss plateau. </p>
+<p>At this point, <b>the only option is to boost metabolism</b>:</p>
+<ul>
+<li>increased cardio, </li>
+<li>weight training, </li>
+<li>&#8216;cheat&#8217; meals (i.e. occasional high-calorie meals), </li>
+<li>cycling (or zig-zagging) calories,</li>
+<li> even <a href="/nutrient-calculator" >manipulating macro-nutrient ratios</a> can all help to do this (don&#8217;t forget adequate sleep and hydration). </li>
+</ul>
+<p>You often find that<strong> the nearer you get to your goal weight (or body fat percentage) &#8211; the harder things get! </strong></p>
+<p>Continually dropping calories only serves to lower metabolism even further &#8211; the moment you return to &#8216;normal&#8217; eating &#8211; the weight comes back on. The 7 Day zig-zag provides a suggestion for daily calories that will keep your body guessing &#8211; and increase your chances of continual weight loss. </p>
+<div class="note"><strong>Need Help With Food Choices?</strong></p>
+<ul>
+<li><a href="/healthy-snacks">Basic healthy snacks</a></li>
+<li><a href="/low-cal-meals">Low-calorie meal ideas</a></li>
+<li><a href="/foods-for-fat-loss">Best foods for fat loss</a></li>
+</ul></div>
+<h2>Minimum Daily Calorie intake</h2>
+<p>It is difficult to set absolute bottom calorie levels, because everyone has different body composition and activity levels. </p>
+<p>Health authorities do set some baselines &#8211; these are <strong>1200 calories per day for women, and 1800 calories per day for men.</strong> </p>
+<p>These absolute rules don&#8217;t make sense &#8211; are you are sedentary person with little muscle mass? Or someone who is tall, muscular, and exercises a lot? Absolute levels don&#8217;t work &#8211; but do give us a starting point. </p>
+<h3><b>When reducing calories:</b></h3>
+<p class="note"><strong>Try not to lower your calorie intake by more than 500 calories below maintenance</strong>. </p>
+<p>Doing so may invoke the bodies starvation response, which can lead to the <a href="/yoyo-dieting">Yo-yo dieting</a> effect. </p>
+<p >Try to <em>gradually</em> lower calories. A sudden drop (such as 500 calories or more) can cause your metabolism to slow.</p>
+<p > Learn to <strong>eat slowly</strong> &#8211; research shows that faster eaters are heavier people<sup><a href="#cite_1">1</a></sup>. </p>
+<h3><b>What happens when calories are too low?</b></h3>
+<ol>
+<li>Muscle mass is broken down for energy (catabolism). </li>
+<li> Metabolic rate will begin to drop (typically) after 3 days of very low calories &#8211; this is related to, and compounded by the loss of muscle mass. </li>
+<li> With very low calories you risk  sluggishness, nutritional deficiencies, fatigue, and often irritability. </li>
+</ol>
+<p>You are completely set-up for a regain in fat if you suddenly return to your previous eating patterns. </p>
+<h2>Exercise Level</h2>
+<p class="note">As your exercise level was already factored into the equation, there is NO NEED to subtract calories burned by exercise.</p>
+<p>It is very hard to generalize exertion from exercise.</p>
+<p> <strong>For the sake of simplicity we define exercise here as 20 minutes of elevated heart rate. </strong></p>
+<p>So, 3 times/week is 20 minutes of elevated heart rate 3 times per week. For you this could mean a brisk walk, for others it could be a slow jog.</p>
+<p><strong>Intense exercise</strong> can be defined as an hour of elevated heart rate (however intense workouts such as a series of body weight exercises (or heavy weights) with little or no breaks are considered intense even when only a shorter duration). </p>
+<p>Have a play with our <a href="/calories-burned">calories burned tool</a> to see how different exercises compare.</p>
+<p class="note">We encourage you to include exercise in your lifestyle change: it helps to maintain muscle when under calorie deficit, and it&#8217;s great for your heart and mental state.</p>
+<h3>Macro Counting</h3>
+<p>Macro Counting is a popular way of calorie-based weight loss because it is very personalized and  unrestricted. It teaches dieters how to calculate their calorie needs (just like our calculator does above) as well as how many grams of carbs, fat, and protein (macros) they should be eating each day for weight loss.</p>
+<p><strong>No foods are off limits as long as they fit your daily macro amount.</strong></p>
+<div class="note"> <span class="new">POPULAR</span> <strong> <a href="https://healthyeater.com/ebook?utm_source=freedieting&#038;utm_medium=text&#038;utm_campaign=calculator">Macro Solution</a></strong> by Ted Kallmyer, is a great place to start. It&#8217;s been a popular choice in recent years due to the &quot;no food restrictions&quot; policy. No foods are off limits &#8211; provided they fit within your daily or weekly goals.</div>
+<h2>Lose Fat AND Build Muscle?</h2>
+<p><strong>Most people <em>lose muscle mass</em> when restricting calories.</strong> It takes great effort to maintain muscle tone &#8211; and it is even more tricky actually building muscle while losing fat.</p>
+<p>There is a great resources for this.</p>
+<ul>
+<li><span class="new">POPULAR</span> <strong> <a rel="nofollow" href="http://f81cabm4weomfn9aziow6y0x6k.hop.clickbank.net/?tid=FDCC">Old School New Body</a> from Steve Holman is a great program </strong>that focuses on <strong>shorter workouts</strong> (maximum 90 minutes per week), while losing fat and building muscle. Age is no excuse here as the author is ripped and in his 50s !</li>
+</ul>
+<h2>Women Only</h2>
+<p>While the basic principles of weight loss are the same between the sexes, hormonal differences are significant. Research in recent years has pointed to Leptin resistance as being a major issue preventing women from regulating body fat (leptin governs fat burning as well as appetite regulation). One diet looks at this:</p>
+<ul>
+<li><span class="new">POPULAR</span> <strong> <a rel="nofollow" href="http://76852ix9xeikdk9ihavcncor6j.hop.clickbank.net/?tid=FDCC">The Venus Factor</a></strong> by John Baban is a womens-only diet that is specifically focused on addressing leptin issues. It is a complete system (just ignore the typical hype that is the video &#8211; there is some real truth behind the claims).    </li>
+</ul>
+<div class="note"><img src="https://www.freedieting.com/wp/wp-content/uploads/2018/01/Daily-Calories-300x300.jpg" alt="" width="300" height="300" class="alignright size-medium wp-image-5908" srcset="https://www.freedieting.com/wp/wp-content/uploads/2018/01/Daily-Calories-300x300.jpg 300w, https://www.freedieting.com/wp/wp-content/uploads/2018/01/Daily-Calories-150x150.jpg 150w, https://www.freedieting.com/wp/wp-content/uploads/2018/01/Daily-Calories.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" />&#8220;I just wanted to let you know how much your site has helped me over the past 6 months&#8230; </p>
+<p>      &#8230;I have used this calculator to help me lose weight. In total so far I have lost 50 pounds, I went from a size 14 to now a size 6-8&#8230;&#8221;</p></div>
+<div style="text-align:center;">Saskia, <a href="/d/about">Read more comments</a></div>
+<h2>References    </h2>
+<p>This calculator has been developed using the most accurate methodologies from peer-reviewed research. See the <a href="/calorie-needs">Calorie Needs Guide</a> for a complete explanation.</p>
+           
+           <div style="padding-top:30px;"><ul class="citation">
+    <li><a name="cite_1">[1]</a> Faster Self-Reported Speed of Eating Is Related to Higher Body Mass Index in a Nationwide Survey of Middle-Aged Women.  Sook Ling Leong, Clara Madden, Andrew Gray, Debra Waters, Caroline Horwath      Journal of the American Dietetic Association 1 August 2011 (volume 111 issue 8 Pages 1192-1197 DOI: 10.1016/j.jada.2011.05.012) </li>
+    <li><a name="cite_2">[2]</a> Modeling weight-loss maintenance to help prevent body weight regain. Kevin D Hall and Peter N Jordan , American Journal of Clinical Nutrition December 2008 (Vol. 88, No. 6, 1495-1503doi:10.3945/ajcn.2008.26333)
+      <a href="http://ajcn.nutrition.org/content/88/6/1495.abstract">Link</a></li>
+        <li> MD Mifflin, ST St Jeor, et al. A new predictive equation for resting energy expenditure in healthy individuals.<br>
+          J Am Diet Assoc 2005:51:241-247. <a href="http://www.ajcn.org/cgi/content/abstract/51/2/241">Link</a></li>
+          <li>Frankenfield DC, et al. Comparison of Predictive Equations for Resting Metabolic Rate in Healthy Nonobese and Obese Adults: A Systematic Review. J Am Diet Assoc. 2005;105:775-789. <a href="http://www.adajournal.org/article/PIIS0002822305001495/abstract">Link</a></li>
+          <li>Frankenfield DC, et al. The Harris-Benedict studies of human basal metabolism: history and limitations.  J Am Diet Assoc. 1998;98:439-445.</li>
+          <li>Manini, T. M., Everhart, J. E., Patel, K. V., Schoeller, D. A., Colbert,  L. H., Visser, M., &#8230; &amp; Harris, T. B. (2006). Daily activity  energy expenditure and mortality among older adults. <em>Jama</em>, <em>296</em>(2), 171-179. <a href="http://jama.jamanetwork.com/article.aspx?articleid=211062">Link</a></li>
+        </ul></div>    <!-- content -->
+    
+
+
+	    <div class="content">
+		    <div class="entry-content" style="padding-top:0;">
+		     
+<!-- You can start editing here. -->
+
+
+	<div id="comment-container">
+	
+		 	
+	 			   
+        
+	<div id="comment-ajax">
+  <div class="comment-page">
+    <ol class="commentlist">
+          </ol>
+    <nav id="comment-nav" class="text-center">
+          </nav>
+      </div>
+</div>
+    <div id="comment-page-holder"></div>
+  </div>
+
+		<!-- If comments are closed. -->
+	<!--<p>Comments are closed.</p>-->
+
+	
+
+
+
+
+     <!--<div class="modified">Date Created / Updated: March 15, 2018</div>-->
+		    </div>
+	    </div>
+	</div>
+	
+	
+	 <div class="col-12 col-sm-12 col-lg-3 visible-lg">
+		 	      
+      <div class="float-center" style="margin-top:6em;"> 
+	 
+        <!-- FD Sidebar A --> 
+        <ins id="adsidebar" class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7631617293200731" data-ad-slot="4923160571" data-ad-format="auto"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+       </div>
+
+    <!-- right sidebar --> 
+    </div>
+
+ </div>
+
+  <!-- row -->
+    <div class="row"> 
+    <!-- FD_Footer_Resp -->
+    <div class="space-top-large space-bottom text-center fd-footer-resp"><ins class="adsbygoogle adfooter"
+     data-ad-client="ca-pub-7631617293200731" data-ad-slot="5599647471" data-ad-format="auto"></ins> 
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> 
+    </div>
+  </div>
+  <footer class="row text-muted space-top-large text-center">
+    <div class="testimonials float-center group">
+      <p id="quotetext" class="no-space-bottom">"I just wanted to say how great this site is.  The Macro-Nutrient and Daily Calorie Needs calculators I use all the time. Thank you!"</p>
+      <p class="no-space-bottom text-bold float-right text-tiny">- <span id="quoteauthor">Terra</span></p>
+    </div>
+    <div class="col-12" >
+      <div class="text-small space-top-large"> <strong><a href="/d/about">About</a></strong> | <strong><a href="/d/contact">Contact</a></strong> | <a href="/d/terms">Terms</a></div>
+      <div class="text-tiny space-top"> Some links are affiliate links, so if you decide to purchase a book or plan listed, you will be helping us. <br />
+        &copy;2018 Freedieting.com</div>
+    </div>
+  </footer>
+</section>
+<!-- Container --> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-173377-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script  src="calc.js" type="text/javascript"></script>
+<!-- comment-reply -->
+<script>var addComment={moveForm:function(a,b,c,d){var e,f,g,h,i=this,j=i.I(a),k=i.I(c),l=i.I("cancel-comment-reply-link"),m=i.I("comment_parent"),n=i.I("comment_post_ID"),o=k.getElementsByTagName("form")[0];if(j&&k&&l&&m&&o){i.respondId=c,d=d||!1,i.I("wp-temp-form-div")||(e=document.createElement("div"),e.id="wp-temp-form-div",e.style.display="none",k.parentNode.insertBefore(e,k)),j.parentNode.insertBefore(k,j.nextSibling),n&&d&&(n.value=d),m.value=b,l.style.display="",l.onclick=function(){var a=addComment,b=a.I("wp-temp-form-div"),c=a.I(a.respondId);if(b&&c)return a.I("comment_parent").value="0",b.parentNode.insertBefore(c,b),b.parentNode.removeChild(b),this.style.display="none",this.onclick=null,!1};try{for(var p=0;p<o.elements.length;p++)if(f=o.elements[p],h=!1,"getComputedStyle"in window?g=window.getComputedStyle(f):document.documentElement.currentStyle&&(g=f.currentStyle),(f.offsetWidth<=0&&f.offsetHeight<=0||"hidden"===g.visibility)&&(h=!0),"hidden"!==f.type&&!f.disabled&&!h){f.focus();break}}catch(q){}return!1}},I:function(a){return document.getElementById(a)}};</script>
+
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.121 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-03-26 19:19:29 -->
+
+<!-- Compression = gzip -->
