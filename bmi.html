@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="calc.css" type="calc.css">
+
 <link rel="preload" href="/images/freedieting-logo.png" as="image">
 <link rel="preload" as="font" href="/fonts/source-sans-pro-v11-latin-regular.woff2" type="font/woff2" crossorigin/>
 <link rel="preload" as="font" href="/fonts/source-sans-pro-v11-latin-700.woff2" type="font/woff2" crossorigin/>
+<link rel="stylesheet" href="calc.css">
 <link rel="stylesheet" href="loginCSS.css">
 	<link rel="stylesheet" href="menu.css">
 	<link rel="stylesheet" href="flipCard.css">  
@@ -131,16 +132,16 @@ function toggleMe(trigger, div) {
             <span id="weighterror"><span class="tip"></span>
             <input name="weight"  type="number" id="weight"  autocorrect="off">
             </span>
-            <input name="weighttype" type="radio" class="rad" id="weighttype1" value="P" checked>
+            <input name="weighttype" type="radio" class="rad" id="weighttype1" value="P" onclick="document.getElementById('weight').value = ''" checked>
             <label for="weighttype1" class="inline">Pounds</label>
-            <input name="weighttype" type="radio" class="rad" id="weighttype2" value="K">
+            <input name="weighttype" type="radio" class="rad" id="weighttype2" value="K" onclick="document.getElementById('weight').value = ''">
             <label for="weighttype2" class="inline">Kilos</label>
           </div>
           <div class="label-align">
             <label>Height</label>
-            <input name="height" type="radio" class="rad" id="heightFeet" value="F" checked onclick="showFeet();">
+            <input name="height" type="radio" class="rad" id="heightFeet" value="F" checked onclick="showFeet();document.getElementById('feet').value = '';document.getElementById('inches').value = ''">
             <label class="inline" for="heightFeet">Feet &amp; Inches</label>
-            <input name="height" type="radio" class="rad" id="heightCM" value="C" onclick="showCM();">
+            <input name="height" type="radio" class="rad" id="heightCM" value="C" onclick="showCM();document.getElementById('cm').value = ''">
             <label  class="inline" for="heightCM">CMs</label>
             <div id="feetlabel">
               <label>Feet</label>
@@ -158,7 +159,7 @@ function toggleMe(trigger, div) {
               </span> </div>
           </div>
     <div class="space-top-large">
-            <input type="submit" class="btn btn-blue btn-large float-center text-tall" value="Calculate" onClick="calcalcIt();" id="Button1" name="Button1">
+            <input type="submit" class="btn btn-blue btn-large float-center text-tall" value="Calculate" onClick="calcalcIt();event.preventDefault();" id="Button1" name="Button1">
           </div>      
              <div id="printArea" style="display:none;">
             <div id="printAreainset">

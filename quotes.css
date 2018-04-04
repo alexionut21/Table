@@ -11,15 +11,3 @@
 	-moz-text-align-last: middle;
 	text-align-last: middle;
  }
- 
-#justify {
- margin: 0 0 0 15%;
-    width: 45%;
-    background: #D33;
-}
-
-#justify p {  
-    max-width: 30%; 
-    text-align: justify;
-    background: #ccc;
-}

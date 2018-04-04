@@ -63,6 +63,7 @@ input.invalid {
   padding: 10px 44px;
   font-size: 15px;
   position: relative;
+
 }
 .btn::before {
   -webkit-transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -94,8 +95,11 @@ input.invalid {
   width: 100%;
 }
 #frame {
-  display: flex;
-  flex-flow: row no-wrap;
+ position: relative;
+  width: 550px;
+  height: 30px;
+
+
 } 
 #frame input {
   visibility:hidden;
@@ -103,7 +107,17 @@ input.invalid {
 #frame .block {
     display: block;
     width: 10%;
-	padding:20px;
+    padding:20px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border:3px solid #8f9121;
+    outline:none;
+}
+#frame .block:before {
+    display: block;
+    width: 10%;
     border-radius: 50%;
     background-color: transparent;
     color: black;
@@ -111,22 +125,107 @@ input.invalid {
     border:3px solid #8f9121;
      outline:none;
 }
-#frame .block:before {
-    display: block;
-    width: 10%;
-    border-radius: 50%;
-	padding:20px;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    border:3px solid #8f9121;
-    outline:none;
-}
 #frame input:checked + .block, #frame .block:hover {
   background-color: #8f9121;
 }
 #frame .block:active {
   background-color: #8f9121;
 }
+
+/*Tip somatic Part*/
+#frame_tip_somatic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 980px;
+  height: 30px;
+  margin-top: 25%;
+  margin-left: 10%;
+  display: flex;
+  flex-flow: row no-wrap;
+
+} 
+input[type="radio"] {
+  visibility:hidden;
+}
+
+.img_tip_somatic{
+border-radius:30%;
+cursor:pointer;
+width:200px;
+height:200px;
+transition: transform .2s;
+box-shadow: 10px 10px 5px #ccc;
+			-moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.img_tip_somatic:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+box-shadow: 10px 10px 5px #ccc;
+			-moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.img_tip_somatic:target {
+    border-radius:30%;
+
+width:250px;
+height:250px;
+}
+
+
+/*Lifestyle part*/
+#lifestyle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 2000px;
+  height: 30px;
+  margin-top: 25%;
+  margin-left: 10%;
+  display: flex;
+  flex-flow: row no-wrap;
+
+} 
+input[type="radio"] {
+  visibility:hidden;
+}
+.img_lifestyle{
+border-radius:20%;
+cursor:pointer;
+width:270px;
+height:250px;
+
+transition: transform .2s;
+box-shadow: 10px 10px 5px #ccc;
+			-moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.img_lifestyle:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+box-shadow: 10px 10px 5px #ccc;
+			-moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.img_lifestyle:target {
+    border-radius:20%;
+
+width:250px;
+height:250px;
+}
+
 
 
