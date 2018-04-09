@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flat UI Login</title>
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="loginCSS.css">
+	<link rel="stylesheet" href="menu.css">
+	<link rel="stylesheet" href="flipCard.css">  
+	<link rel="stylesheet" href="quotes.css">  	
+<style>
+	<!--Coment Section-->
+p {
+  line-height: 2.3125rem;
+}
+
+.comments {
+  margin-top: 15%;
+  margin-left: 1%;
+  width: 80.75rem;
+}
+
+.comment-wrap {
+  margin-bottom: 1.25rem;
+  display: table;
+  width: 100%;
+  min-height: 5.3125rem;
+}
+
+.photo {
+  padding-top: 0.825rem;
+  display: table-cell;
+  width: 6.5rem;
+}
+.photo .avatar {
+  height: 5.25rem;
+  width: 5.25rem;
+  border-radius: 45%;
+  background-size: contain;
+}
+
+.comment-block {
+  padding: 3rem;
+  background-color: #fff;
+  display: table-cell;
+  vertical-align: top;
+  border-radius: 0.1875rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.09);
+}
+.comment-block textarea {
+  width: 100%;
+  resize: none;
+}
+
+.comment-text {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.bottom-comment {
+  color: #acb4c2;
+  font-size: 1.45rem;
+}
+
+.comment-date {
+  float: left;
+}
+
+.comment-actions {
+  float: right;
+}
+.comment-actions li {
+  display: inline;
+  margin: -2px;
+  cursor: pointer;
+}
+.comment-actions li.reply {
+  padding-left: 0.75rem;
+  padding-right: 0.125rem;
+}
+.comment-actions li:hover {
+  color: #0095ff;
+}
+</style>
+</head>
+
+<body>
+
+  <div id="wrap">
+  <div id="regbar">
+    <div id="navthing">
+      <h2><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h2>
+    <div class="login">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+           <fieldset>
+             <label name="email">Email</label>
+             <input type="email" placeholder="example@example.com" />
+             <label name="password">Password</label>
+             <input type="password" placeholder="Password" />
+             <input type="submit" value="Login" /> 
+           </fieldset>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<nav role="navigation">
+  <div id="menuToggle">
+   <input type="checkbox" />
+   
+   <span></span>
+    <span></span>
+    <span></span>
+   
+    <ul id="menu">
+      <b href="#">
+        <li>Home</li>
+      </b>
+      <b href="#">
+        <li>Articles</li>
+      </b>
+      <b href="#">
+        <li>Videos</li>
+      </b>
+      <b href="#">
+        <li>Contact</li>
+      </b>
+      <b href="#">
+        <li>Challenges</li>
+      </b>
+		 <b href="#">
+        <li>Community</li>
+		</b>
+    </ul>
+  </div>
+</nav>
+
+  <div style="margin-left:100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="txt-uppercase" style="color:black;">
+                        Ask me a Question
+                    </h2>
+                    <p>
+                        You can ask me anything related to fitness, lifestyle or nutrition guidelines.
+                    </p>
+                    <form method="post">
+                        <div class="group">
+                            <label for="">
+                                Your Question
+                            </label><br>
+							<label name="email">Email</label>
+							<input type="email" placeholder="example@example.com" />
+							<label name="name">Name</label>
+							<input type="name" placeholder="example@example.com" />
+                            <textarea rows="7" class="form-control" name="question" id="p1" placeholder="Describe Your Question..."></textarea>							
+                        </div>
+                        <div class="group">
+                         <input type="submit" value="Post" class="btn btn-blue btn-large float-center text-tall" style="padding: 7px 40px;float:right;background: #8f9121;" onclick="addParagraphs();event.preventDefault();document.getElementById('p1').value = ''">                          	
+                        </div><br>
+						<div id="aftergroup">
+							<div class="comments">
+		<div class="comment-wrap">
+				<div class="photo">
+						<div class="avatar" style="background-image: url('https://ssl.gstatic.com/accounts/ui/avatar_2x.png')"></div>
+				</div>
+				<div class="comment-block">
+				<div class="bottom-comment">
+								<div class="comment-date">Written by:</div>						
+				</div><br><br>
+						<p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus iste nostrum dolorem natus recusandae incidunt voluptatum. Eligendi voluptatum ducimus architecto tempore, quaerat explicabo veniam fuga corporis totam reprehenderit quasi
+								sapiente modi tempora at perspiciatis mollitia, dolores voluptate. Cumque, corrupti?</p>
+						<div class="bottom-comment">
+								<div class="comment-date">Aug 24, 2014 @ 2:35 PM</div>
+								<ul class="comment-actions">
+										<li class="reply">Reply</li>
+								</ul>
+						</div>
+						
+				</div>
+		</div>
+</div>
+
+</div>
+							</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+function addParagraphs() {
+	var b = $("#p1").val();
+if ($("p").length){
+    target = $('p').last(); 
+    var p2 = "<p class='comment-text'>"+b+"</p>";
+    $("#aftergroup").append($(p2));
+    }
+    else{
+ 	var c2 = "<p id='p2'> "+b+"</p>";
+	 $("#aftergroup").append($(c2));  
+   }
+}
+</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script  src="loginJS.js"></script>
+	<script  src="flipCard.js"></script>
+
+
+
+</body>
+
+</html>
