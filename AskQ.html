@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 
-
+	<link rel="stylesheet" href="calc.css">
 	<link rel="stylesheet" href="loginCSS.css">
 	<link rel="stylesheet" href="menu.css">
 	<link rel="stylesheet" href="flipCard.css">  
@@ -145,10 +145,12 @@ p {
   </div>
 </nav>
 
+
   <div style="margin-left:100px;">
         <div class="container">
+		<div class="tooltable" style="Background-color:#f7ede3;">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" style="background-color:#efefef">
                     <h2 class="txt-uppercase" style="color:black;">
                         Ask me a Question
                     </h2>
@@ -164,12 +166,16 @@ p {
 							<input type="email" placeholder="example@example.com" />
 							<label name="name">Name</label>
 							<input type="name" placeholder="example@example.com" />
+							<label name="comment">Comment</label>
                             <textarea rows="7" class="form-control" name="question" id="p1" placeholder="Describe Your Question..."></textarea>							
                         </div>
                         <div class="group">
                          <input type="submit" value="Post" class="btn btn-blue btn-large float-center text-tall" style="padding: 7px 40px;float:right;background: #8f9121;" onclick="addParagraphs();event.preventDefault();document.getElementById('p1').value = ''">                          	
                         </div><br>
-						<div id="aftergroup">
+		
+							</div>
+							</div>
+											<div id="aftergroup">
 							<div class="comments">
 		<div class="comment-wrap">
 				<div class="photo">
@@ -192,13 +198,13 @@ p {
 		</div>
 </div>
 
-</div>
-							</div>
+</div>	
                     </form>
                 </div>
             </div>
         </div>
-    </div>
+    
+
 
 
 <script>
