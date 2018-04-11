@@ -14,634 +14,7 @@
 	<link rel="stylesheet" href="menu.css">
 	<link rel="stylesheet" href="flipCard.css">  
 	<link rel="stylesheet" href="quotes.css">  	
-<style>
 
-
-@media (min-width: 768px){
-    .container{
-        max-width:728px;
-        padding:1em
-    }
-    .hidden-sm{
-        display:block !important
-    }
-}
-body{
-    font-family:"Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-    font-size:100%;
-    line-height:1.47;
-    color:#575757;
-    background:#fff
-}
-p{
-    margin-bottom:1.53em
-}
-
-ul.pro>li:before{
-    background-image:url("data:image/svg+xml;
-    utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 64 64' preserveAspectRatio='xMidYMid meet'><path d='M51.3 7L25.2 33.1 12.7 20.5 4 29.2l21.2 21.2L60 15.7z' fill='%230abba4' /></svg>")
-}
-ul.con>li:before{
-    background-image:url("data:image/svg+xml;
-    utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 64 64' preserveAspectRatio='xMidYMid meet'><path d='M53 18.6l-8.4-8.4L32 22.8 19.4 10.2 11 18.6l12.6 12.6L11 43.8l8.4 8.4L32 39.6l12.6 12.6 8.4-8.4-12.6-12.6z' fill='%23f06e65' /></svg>")
-}
-	
-
-h1{
-    font-size:1.6em;
-    padding-top:0;
-    margin-top:0;
-    letter-spacing:-1px
-}
-h2{
-    font-size:1.5em
-}
-h3{
-    font-size:1.3em
-}
-h4,h5,h6{
-    font-size:.88em
-}
-h4{
-    text-transform:uppercase
-}
-hr{
-    margin:2em auto;
-    border:0;
-    border-top:.07em solid #e5e5e5;
-    border-bottom:.07em solid #fff
-}
-
-
-
-.btn{
-    display:inline-block;
-    font-size:.882em;
-    padding:.4em .667em;
-    line-height:1.333;
-    font-weight:normal;
-    background-color:#808080;
-    border:.071em solid #808080;
-    border-radius:.24em;
-    margin-left:.3em;
-    margin-bottom:.3em;
-    text-decoration:none
-}
-.btn,.btn:hover,a .btn:hover{
-    color:#ffffff
-}
-.btn:hover,a .btn:hover{
-    background-color:#595959;
-    border-color:#595959;
-    text-decoration:none
-}
-.btn-primary{
-    background-color:#ED6262;
-    border-color:#ED6262
-}
-.btn-blue{
-    background-color:#8f9121;
-    border-color:#8f9121
-}
-.btn-blue:hover,a .btn-blue:hover{
-    background-color:#005580;
-    border-color:#005580
-}
-.btn:active{
-    box-shadow:inset 0 0.14em 0.23em rgba(0,0,0,0.15),0 0.071em 0.14em rgba(0,0,0,0.05);
-    outline:0
-}
-.btn-large{
-    padding:.588em .88em;
-    font-size:1em;
-    line-height:normal;
-    border-radius:.29em
-}
-.btn-small{
-    padding:.13em .3em;
-    line-height:normal
-}
-.btn-block,input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{
-    display:block;
-    width:100%;
-    margin-left:0;
-    padding-right:0;
-    padding-left:0;
-    box-sizing:border-box
-}
-.btn-block+.btn-block{
-    margin-top:.33em
-}
-button,.btn{
-    cursor:pointer;
-    text-align:center;
-    vertical-align:middle;
-    -webkit-appearance:none
-}
-form,fieldset{
-    margin-bottom:1.5em
-}
-legend,label{
-    margin:0.5em 0 0.2em;
-    display:block;
-    color:#666
-}
-legend{
-    font-weight:bold
-}
-input,textarea,select{
-    padding:0.3em 0.4em;
-    display:inline-block;
-    border:1px solid #ccc;
-    color:#555;
-    font:inherit;
-    box-shadow:inset 0 1px 3px #ddd;
-    border-radius:4px;
-    transition:0.3s linear box-shadow;
-    box-sizing:border-box
-}
-form textarea{
-    border:1px solid #949494;
-    border-radius:3px;
-    box-shadow:0 3px 3px rgba(0,0,0,0.1) inset;
-    padding:2px;
-    color:#565656;
-    width:100%
-}
-::-webkit-inner-spin-button{
-    -webkit-appearance:none
-}
-::-webkit-outer-spin-button{
-    -webkit-appearance:none
-}
-textarea{
-    height:6em
-}
-input[type="number"]{
-    text-align:center;
-    max-width:60px;
-    -moz-appearance:textfield
-}
-input[type="image"],input[type="checkbox"],input[type="radio"]{
-    display:inline-block;
-    width:auto;
-    height:auto;
-    padding:0;
-    margin-bottom:.29em;
-    cursor:pointer
-}
-input[type="button"],input[type="submit"]{
-    display:block
-}
-input:focus,textarea:focus{
-    border-color:rgba(82,168,236,0.8);
-    box-shadow:inset 0 0.071em 0.071em rgba(0,0,0,0.075),0 0 0.47em rgba(82,168,236,0.6);
-    outline:0
-}
-input[type="file"]:focus,input[type="checkbox"]:focus,select:focus{
-    outline:thin dotted;
-    outline:.29em auto -webkit-focus-ring-color;
-    outline-offset:-.117em
-}
-.error input{
-    border-color:#E9322D !important
-}
-.input-inline,.inline{
-    display:inline !important;
-    width:auto !important
-}
-.inline{
-    color:#8f8f8f
-}
-.label-align{
-    margin-bottom:1.4em
-}
-.input-condensed{
-    line-height:1;
-    padding:.117em
-}
-.tooltable{
-    border-radius:5px;
-    background-color:#efefef;
-    padding:0 3% 2% 3%
-}
-.tooltable-cell-width{
-    width:50%
-}
-.tooltable h2{
-    background-color:#8f9121;
-    color:#fff;
-    text-align:center;
-    padding:5px;
-    margin-left:-3%;
-    margin-right:-3%
-}
-.formnote{
-    background-color:#dfdfdf;
-    padding:5px 10px;
-    font-size:0.8em
-}
-.label-align .formnote{
-    margin:10px auto;
-    max-width:280px;
-    text-align:center
-}
-
-table{
-    border-collapse:collapse;
-    border-spacing:0;
-    box-shadow:0 0 6px #AAA;
-    margin-bottom:1em
-}
-table.scrollable{
-    overflow-x:auto;
-    display:block;
-    -webkit-overflow-scrolling:touch
-}
-td,th{
-    border:1px solid #ddd;
-    padding:10px;
-    vertical-align:top
-}
-th{
-    background-color:#efefef
-}
-table.default{
-    font-size:0.875em;
-    width:100%
-}
-img.right{
-    float:none;
-    margin:0 0 20px 0;
-    display:block
-}
-img.left{
-    float:left;
-    margin:0 1em 1em 0
-}
-
-figure{
-    position:relative;
-    display:block
-}
-figure img{
-    display:block
-}
-figcaption{
-    background-color:rgba(237,98,98,0.85);
-    bottom:0px;
-    color:#fff;
-    left:auto;
-    padding:3px;
-    position:absolute;
-    width:auto;
-    box-sizing:border-box;
-    font-size:1.4em
-}
-figcaption a{
-    color:#fff
-}
-.caption{
-    color:#666;
-    font-size:12px;
-    margin:4px 0;
-    text-align:center
-}
-.content-box{
-    box-shadow:0 0 0 1px rgba(0,0,0,0.15),0 0 10px -3px rgba(0,0,0,0.5);
-    border-radius:4px;
-    padding:2%
-}
-.content-box h2{
-    padding:0;
-    font-weight:bold
-}
-.note,.notebad{
-    background-color:#FDF5D9;
-    border-radius:8px;
-    padding:1.5em;
-    margin-bottom:1.5em
-}
-.notebad{
-    color:#a94442;
-    background-color:#f2dede
-}
-.faq,.hilite{
-    box-shadow:1px 1px 2px #dedede;
-    border-radius:5px;
-    padding:1em;
-    margin-bottom:1.6em;
-    background-color:#F0F8FB
-}
-.notesmall{
-    margin:10px auto;
-    padding:8px;
-    font-size:0.9em;
-    color:#666;
-    border-radius:8px;
-    background-color:#EAF7FF
-}
-.testimonials{
-    box-sizing:border-box;
-    background-color:#F1F1F1;
-    height:auto;
-    border-radius:5px;
-    padding:2%;
-    max-width:700px;
-    text-align:left;
-    width:90%
-}
-.meal{
-    border:1px solid #dbd8c7;
-    background-color:#F2F2E8;
-    padding:10px;
-    position:relative;
-    margin-bottom:20px
-}
-.meal h2{
-    font-weight:bold
-}
-
-.js #nav{
-    clip:rect(0 0 0 0);
-    position:absolute;
-    max-height:0;
-    display:block;
-    overflow:hidden;
-    margin-left:-15px;
-    margin-right:-15px
-}
-.tabs{
-    display:none;
-    visibility:hidden
-}
-.js .tabs{
-    display:block;
-    visibility:visible
-}
-.tabs a,.tabs button{
-    cursor:pointer
-}
-.js .tabs-pane{
-    display:none;
-    visibility:hidden
-}
-.tabs-pane.active{
-    display:block;
-    visibility:visible
-}
-.tabs-horizontal,.tabs-stacked{
-    list-style:none;
-    margin-left:0;
-    margin-bottom:0;
-    border-top:.071428571em solid #808080;
-    border-left:1px solid #ccc;
-    border-right:1px solid #ccc;
-    background-color:#f4f4f4;
-    font-size:1.2em
-}
-.tabs-horizontal>li,.tabs-stacked>li{
-    display:inline-block;
-    float:none;
-    padding:.5em .7em
-}
-.tabs-horizontal a,.tabs-stacked a{
-    color:#999;
-    text-decoration:none
-}
-.tabs-horizontal>.active,.tabs-stacked>.active{
-    background-color:#ffffff;
-    font-weight:bold
-}
-.tabs-horizontal a:hover,.tabs-stacked a:hover,.tabs-horizontal>.active>a,.tabs-stacked>.active>a{
-    color:#272727;
-    text-decoration:none
-}
-.tabs-content{
-    border:1px solid #ccc;
-    padding:12px;
-    border-top-width:0
-}
-@media (min-width: 40em){
-    .alignright{
-        max-width:100%
-    }
-    table tbody tr:nth-child(odd){
-        background:none repeat scroll 0 0 #eee
-    }
-    .tabs-stacked{
-        border:none;
-        margin-left:0;
-        padding-left:0;
-        padding-top:1em;
-        padding-bottom:1em
-    }
-    .tabs-stacked>li,.tabs-stacked>li>a{
-        display:block;
-        width:100%
-    }
-}
-.tabs:before,.tabs:after{
-    display:table;
-    content:"";
-    zoom:1
-}
-.tabs:after{
-    clear:both
-}
-@media screen and (min-width: 768px){
-    .cals{
-        position:absolute;
-        right:10px;
-        top:10px;
-        z-index:1
-    }
-    table.default{
-        font-size:1em
-    }
-    .js #nav{
-        position:relative;
-        margin:0
-    }
-    .js #nav{
-        max-height:none
-    }
-    #nav-toggle{
-        display:none
-    }
-    #nav a{
-        display:block;
-        color:#878787;
-        font-size:inherit;
-        padding:0;
-        border:0;
-        text-decoration:none
-    }
-    .nav{
-        background-color:#fff;
-        padding-left:0.3em;
-        border-radius:5px;
-        box-shadow:none
-    }
-    .nav li{
-        padding-top:.23em;
-        padding-bottom:.23em
-    }
-    .inline-right{
-        display:inline-block;
-        text-align:right;
-        padding-right:4px;
-        width:25%
-    }
-    .label-align label{
-        display:inline-block;
-        margin:0 .8em 0 0;
-        text-align:right;
-        vertical-align:middle;
-        width:30%
-    }
-}
-.dropdown,.dropdown-calc{
-    position:relative
-}
-.js .dropdown>a:after,.dropdown-calc>a:after{
-    content:" \25bc";
-    font-size:.8em
-}
-.js .dropdown>a.active:after,.dropdown-calc>a.active:after{
-    content:" \25b2"
-}
-.dropdown-menu{
-    position:absolute;
-    top:100%;
-    display:none;
-    font-size:0.875em;
-    visibility:hidden;
-    float:left;
-    min-width:15em;
-    margin-top:.470588235em;
-    margin-left:0;
-    text-align:left;
-    border:1px solid #b8b8b8;
-    background-color:#ffffff;
-    z-index:1000;
-    border-radius:.29em;
-    box-shadow:0 0.29em 0.58em rgba(0,0,0,0.2);
-    box-sizing:border-box;
-    -webkit-background-clip:padding-box;
-    -moz-background-clip:padding;
-    background-clip:padding-box
-}
-.dropdown-menu ul,.dropdown-menu ol{
-    margin-left:0;
-    margin-bottom:0;
-    list-style:none
-}
-.dropdown-menu.active{
-    display:block;
-    visibility:visible;
-    padding:.47em
-}
-.dropdown-menu.dropdown-right{
-    right:0;
-    left:auto
-}
-.dropdown-menu .divider{
-    background-color:#E5E5E5;
-    border-bottom:1px solid #FFFFFF;
-    height:1px;
-    margin:9px 1px;
-    overflow:hidden
-}
-@media (max-width: 40em){
-    .js .dropdown-menu{
-        position:relative;
-        float:none;
-        min-width:100%;
-        background-color:#f4f4f4;
-        border:none;
-        box-shadow:none
-    }
-}
-.text-bold{
-    font-weight:700
-}
-.text-center{
-    text-align:center
-}
-.text-right{
-    text-align:right
-}
-.text-left{
-    text-align:left
-}
-.float-left{
-    float:left
-}
-.float-center{
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
-    display:block
-}
-.float-right{
-    float:right
-}
-.absolute-Center{
-    width:50%;
-    height:50%;
-    overflow:auto;
-    margin:auto;
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0
-}
-.no-space{
-    margin:0;
-    padding:0
-}
-.no-space-bottom{
-    margin-bottom:0;
-    padding-bottom:0
-}
-.no-space-top{
-    margin-top:0;
-    padding-top:0
-}
-.space-bottom{
-    margin-bottom:2em
-}
-.space-bottom-small{
-    margin-bottom:.47em;
-    padding-bottom:0
-}
-.space-top{
-    padding-top:.82em
-}
-.space-top-large{
-    padding-top:2em
-}
-.screen-reader{
-    position:absolute;
-    top:-9999em;
-    left:-9999em
-}
-.group:before,.group:after,.container:before,.container:after,.row:before,.row:after{
-    display:table;
-    content:"";
-    *zoom:1
-}
-.group:after,.container:after,.row:after{
-    clear:both
-}
-.ie body{
-    background-color:#E5E5DF
-}
- 
-</style>
-  
 </head>
 
 <body>
@@ -677,24 +50,24 @@ figcaption a{
     <span></span>
    
     <ul id="menu">
-      <b href="#">
+      <a href="LOGIN.html">
         <li>Home</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="articles.html">
         <li>Articles</li>
-      </b>
-      <b href="#">
-        <li>Videos</li>
-      </b>
-      <b href="#">
-        <li>Contact</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="Calc.html">
+        <li>Calorie calculator</li>
+      </a>
+      <a href="bmi.html">
+        <li>Body mass index</li>
+      </a>
+      <a href="#">
         <li>Challenges</li>
-      </b>
-		 <b href="#">
-        <li>Community</li>
-		</b>
+      </a>
+		 <a href="diet.html">
+        <li>Diet</li>
+		</a>
     </ul>
   </div>
 </nav>
@@ -715,35 +88,10 @@ table.formulas .small { font-size:12px; }10
 </style>
 <script>
 function init() {
-	get("age").focus();
-	oForm = document.calc;
-	if (oForm.height[0].checked) { 
-	   showFeet(); }
-	   else 
-	   {
-	showCM();
-	}
+	document.getElementById("calories").focus();
 }
-
 document.addEventListener('DOMContentLoaded', init, false);
-
-function showFeet() {
-	var divblock = document.getElementById("feetlabel");
-	divblock.style.display = "block";
-	var cmblock = document.getElementById("cmlabel");
-	cmblock.style.display = "none";
-}
-
-function showCM() {
-	var divblock = document.getElementById("feetlabel");
-	divblock.style.display = "none";
-	var cmblock = document.getElementById("cmlabel");
-	cmblock.style.display = "block";
-}
-
-function toggleMe(trigger, div) {
-  toggleClass(document.getElementById(div),"displayBlock");
-}</script>
+</script>
  <noscript>
       <div class="alert">Hey! You have JavaScript disabled on your browser. The calculator will not work. <a target="_blank" href="http://www.enable-javascript.com/">See how to enable JavaScript on your browser.</a></div>
       </noscript>
@@ -753,7 +101,7 @@ function toggleMe(trigger, div) {
           <div class="label-align">
             <label class="inline">I want to eat </label>
             <span id="ageerror"><span class="tip"></span>
-            <input name="Calories" type="number" id="Calories" autocorrect="off">
+            <input name="calories" type="number" id="calories" autocorrect="off">
             <label class="inline">calories in </label>
 			 <input name="meals" type="number" id="meals" autocorrect="off">
 			 <label class="inline">meals</label>
@@ -763,16 +111,16 @@ function toggleMe(trigger, div) {
           <div id="printArea" style="display:none;">
             <div id="printAreainset">
               <div class="tooltable float-center" style="min-width:80%;padding-right:0;padding-left:0;">
-                <p><label class="text-center">Including Exercise</label></p>
+                <p><label class="text-center">Meal plan</label></p>
                 <table width="100%"  border="0" cellspacing="0" cellpadding="0" style="box-shadow:none;">
                   <tr>
                     <td align="right" class="tooltable-cell-width"><label class="biglabel">Breakfast</label></td>
-					<td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="dinner">?</span><span id="cal1" class="cal">PHOTO</span></div></td>
+					<td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="breakfast">?</span><span id="cal1" class="cal">PHOTO</span></div></td>
                     <td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="breakfast">?</span><span id="cal1" class="cal">CALORIES/MEAL</span></div></td>
                   </tr>
                   <tr>
                      <td align="right" class="tooltable-cell-width"><label class="biglabel">Launch</label></td>
-					<td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="dinner">?</span><span id="cal1" class="cal">PHOTO</span></div></td>
+					<td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="launch">?</span><span id="cal1" class="cal">PHOTO</span></div></td>
                     <td  align="left" class="tooltable-cell-width"><div class="calwrap"><span id="launch">?</span><span id="cal1" class="cal">CALORIES/MEAL</span></div></td>
                   </tr>
                   <tr>
@@ -788,6 +136,8 @@ function toggleMe(trigger, div) {
                 </table>              
               </div>
             </div>
+			 <div style="margin:10px 0px 10px 0;text-align:right;"><a style="text-decoration:none;color:#aaa;" href="#" onClick="printThis('printAreainset');return false;" title="Print results"><img src="/images/print-icon.png" style="vertical-align:middle;" width="17" height="19" alt="Print results"> Print</a></div>
+            
           </div>
         </form>
       </div>

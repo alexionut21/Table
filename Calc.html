@@ -14,11 +14,6 @@
 	<link rel="stylesheet" href="flipCard.css">  
 	<link rel="stylesheet" href="quotes.css">  	
 
-<!-- This site is optimized with the Yoast SEO plugin v7.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<link rel="canonical" href="https://www.freedieting.com/calorie-calculator" />
-<!-- / Yoast SEO plugin. -->
-
-<link rel='dns-prefetch' href='//s.w.org' />
   </head>
 <body>
 <div id="wrap">
@@ -52,24 +47,24 @@
     <span></span>
    
     <ul id="menu">
-      <b href="#">
+      <a href="LOGIN.html">
         <li>Home</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="articles.html">
         <li>Articles</li>
-      </b>
-      <b href="#">
-        <li>Videos</li>
-      </b>
-      <b href="#">
-        <li>Contact</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="Calc.html">
+        <li>Calorie calculator</li>
+      </a>
+      <a href="bmi.html">
+        <li>Body mass index</li>
+      </a>
+      <a href="#">
         <li>Challenges</li>
-      </b>
-		 <b href="#">
-        <li>Community</li>
-		</b>
+      </a>
+		 <a href="diet.html">
+        <li>Diet</li>
+		</a>
     </ul>
   </div>
 </nav>
@@ -102,8 +97,7 @@ table.formulas .small { font-size:12px; }10
 #nowwhat { min-width:75%; background: #d6d6d6; background: rgba(0, 0, 0, 0.06); border-radius: 3px; padding: 6px 12px; }
 </style>
 <script>
-/* Javascript code copyright Freedieting 2018
-Do not copy or reuse */
+
 function init() {
 	get("age").focus();
 	oForm = document.calc;
@@ -413,7 +407,7 @@ function toggleMe(trigger, div) {
   ga('send', 'pageview');
 
 </script>
-<script  src="calc.js" type="text/javascript"></script>
+<script  src="calcBeautified.js" type="text/javascript"></script>
 <!-- comment-reply -->
 <script>var addComment={moveForm:function(a,b,c,d){var e,f,g,h,i=this,j=i.I(a),k=i.I(c),l=i.I("cancel-comment-reply-link"),m=i.I("comment_parent"),n=i.I("comment_post_ID"),o=k.getElementsByTagName("form")[0];if(j&&k&&l&&m&&o){i.respondId=c,d=d||!1,i.I("wp-temp-form-div")||(e=document.createElement("div"),e.id="wp-temp-form-div",e.style.display="none",k.parentNode.insertBefore(e,k)),j.parentNode.insertBefore(k,j.nextSibling),n&&d&&(n.value=d),m.value=b,l.style.display="",l.onclick=function(){var a=addComment,b=a.I("wp-temp-form-div"),c=a.I(a.respondId);if(b&&c)return a.I("comment_parent").value="0",b.parentNode.insertBefore(c,b),b.parentNode.removeChild(b),this.style.display="none",this.onclick=null,!1};try{for(var p=0;p<o.elements.length;p++)if(f=o.elements[p],h=!1,"getComputedStyle"in window?g=window.getComputedStyle(f):document.documentElement.currentStyle&&(g=f.currentStyle),(f.offsetWidth<=0&&f.offsetHeight<=0||"hidden"===g.visibility)&&(h=!0),"hidden"!==f.type&&!f.disabled&&!h){f.focus();break}}catch(q){}return!1}},I:function(a){return document.getElementById(a)}};</script>
 

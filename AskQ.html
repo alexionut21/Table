@@ -12,82 +12,8 @@
 	<link rel="stylesheet" href="calc.css">
 	<link rel="stylesheet" href="loginCSS.css">
 	<link rel="stylesheet" href="menu.css">
-	<link rel="stylesheet" href="flipCard.css">  
 	<link rel="stylesheet" href="quotes.css">  	
-<style>
-	<!--Coment Section-->
-p {
-  line-height: 2.3125rem;
-}
-
-.comments {
-  margin-top: 15%;
-  margin-left: 1%;
-  width: 80.75rem;
-}
-
-.comment-wrap {
-  margin-bottom: 1.25rem;
-  display: table;
-  width: 100%;
-  min-height: 5.3125rem;
-}
-
-.photo {
-  padding-top: 0.825rem;
-  display: table-cell;
-  width: 6.5rem;
-}
-.photo .avatar {
-  height: 5.25rem;
-  width: 5.25rem;
-  border-radius: 45%;
-  background-size: contain;
-}
-
-.comment-block {
-  padding: 3rem;
-  background-color: #fff;
-  display: table-cell;
-  vertical-align: top;
-  border-radius: 0.1875rem;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.09);
-}
-.comment-block textarea {
-  width: 100%;
-  resize: none;
-}
-
-.comment-text {
-  margin-bottom: 1.25rem;
-  font-size: 1.5rem;
-}
-
-.bottom-comment {
-  color: #acb4c2;
-  font-size: 1.45rem;
-}
-
-.comment-date {
-  float: left;
-}
-
-.comment-actions {
-  float: right;
-}
-.comment-actions li {
-  display: inline;
-  margin: -2px;
-  cursor: pointer;
-}
-.comment-actions li.reply {
-  padding-left: 0.75rem;
-  padding-right: 0.125rem;
-}
-.comment-actions li:hover {
-  color: #0095ff;
-}
-</style>
+	<link rel="stylesheet" href="AskQcomments.css">  	
 </head>
 
 <body>
@@ -123,24 +49,24 @@ p {
     <span></span>
    
     <ul id="menu">
-      <b href="#">
+      <a href="LOGIN.html">
         <li>Home</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="articles.html">
         <li>Articles</li>
-      </b>
-      <b href="#">
-        <li>Videos</li>
-      </b>
-      <b href="#">
-        <li>Contact</li>
-      </b>
-      <b href="#">
+      </a>
+      <a href="Calc.html">
+        <li>Calorie calculator</li>
+      </a>
+      <a href="bmi.html">
+        <li>Body mass index</li>
+      </a>
+      <a href="#">
         <li>Challenges</li>
-      </b>
-		 <b href="#">
-        <li>Community</li>
-		</b>
+      </a>
+		 <a href="diet.html">
+        <li>Diet</li>
+		</a>
     </ul>
   </div>
 </nav>
@@ -148,61 +74,43 @@ p {
 
   <div style="margin-left:100px;">
         <div class="container">
-		<div class="tooltable" style="Background-color:#f7ede3;">
-            <div class="row">
-                <div class="col-md-6" style="background-color:#efefef">
-                    <h2 class="txt-uppercase" style="color:black;">
-                        Ask me a Question
-                    </h2>
-                    <p>
-                        You can ask me anything related to fitness, lifestyle or nutrition guidelines.
-                    </p>
-                    <form method="post">
-                        <div class="group">
-                            <label for="">
-                                Your Question
-                            </label><br>
-							<label name="email">Email</label>
-							<input type="email" placeholder="example@example.com" />
-							<label name="name">Name</label>
-							<input type="name" placeholder="example@example.com" />
-							<label name="comment">Comment</label>
-                            <textarea rows="7" class="form-control" name="question" id="p1" placeholder="Describe Your Question..."></textarea>							
-                        </div>
-                        <div class="group">
-                         <input type="submit" value="Post" class="btn btn-blue btn-large float-center text-tall" style="padding: 7px 40px;float:right;background: #8f9121;" onclick="addParagraphs();event.preventDefault();document.getElementById('p1').value = ''">                          	
-                        </div><br>
-		
+			<div class="tooltable" style="Background-color:#f7ede3;">
+				<div class="row">
+					<div class="col-md-6" style="background-color:#efefef">
+						<h2 class="txt-uppercase" style="color:black;">
+							Ask me a Question
+						</h2>
+						<p>
+							You can ask me anything related to fitness, lifestyle or nutrition guidelines.
+						</p>
+						<form method="post">
+							<div class="group">
+								<label for="">
+									Your Question
+								</label><br>
+								<label name="email">Email</label>
+								<input type="email" placeholder="example@example.com" />
+								<label name="name">Name</label>
+								<input type="name" placeholder="example@example.com" />
+								<label name="comment">Comment</label>
+								<textarea rows="7" class="form-control" name="question" id="p1" placeholder="Describe Your Question..."></textarea>							
 							</div>
-							</div>
-											<div id="aftergroup">
+							<div class="group">
+							 <input type="submit" value="Post" class="btn btn-blue btn-large float-center text-tall" style="padding: 7px 40px;float:right;background: #8f9121;" onclick="addParagraphs();event.preventDefault();document.getElementById('p1').value = ''">                          	
+							</div><br>
+			
+					</div>
+				</div>
+							<div id="aftergroup">
 							<div class="comments">
-		<div class="comment-wrap">
-				<div class="photo">
-						<div class="avatar" style="background-image: url('https://ssl.gstatic.com/accounts/ui/avatar_2x.png')"></div>
-				</div>
-				<div class="comment-block">
-				<div class="bottom-comment">
-								<div class="comment-date">Written by:</div>						
-				</div><br><br>
-						<p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus iste nostrum dolorem natus recusandae incidunt voluptatum. Eligendi voluptatum ducimus architecto tempore, quaerat explicabo veniam fuga corporis totam reprehenderit quasi
-								sapiente modi tempora at perspiciatis mollitia, dolores voluptate. Cumque, corrupti?</p>
-						<div class="bottom-comment">
-								<div class="comment-date">Aug 24, 2014 @ 2:35 PM</div>
-								<ul class="comment-actions">
-										<li class="reply">Reply</li>
-								</ul>
-						</div>
-						
-				</div>
-		</div>
-</div>
 
-</div>	
-                    </form>
-                </div>
+							</div>
+
+							</div>	
+						</form>
             </div>
         </div>
+ </div>
     
 
 
@@ -212,11 +120,11 @@ function addParagraphs() {
 	var b = $("#p1").val();
 if ($("p").length){
     target = $('p').last(); 
-    var p2 = "<p class='comment-text'>"+b+"</p>";
-    $("#aftergroup").append($(p2));
+    var p2 = "<div class='comment-wrap'><div class='photo'><div class='avatar' style='background-image: url(&quot;https://ssl.gstatic.com/accounts/ui/avatar_2x.png&quot;)'></div></div><div class='comment-block'><div class='bottom-comment'><div class='comment-date'>Written by:</div>						</div><br><br><p class='comment-text'>"+b+"</p><div class='bottom-comment'><div class='comment-date'>Aug 24, 2014 @ 2:35 PM</div><ul class='comment-actions'><li class='reply'>Reply</li></ul></div></div></div>";
+	 $("#aftergroup").append($(p2));
     }
     else{
- 	var c2 = "<p id='p2'> "+b+"</p>";
+ 	    var c2 = "<div class='comment-wrap'><div class='photo'><div class='avatar' style='background-image: url(&quot;https://ssl.gstatic.com/accounts/ui/avatar_2x.png&quot;)'></div></div><div class='comment-block'><div class='bottom-comment'><div class='comment-date'>Written by:</div>						</div><br><br><p class='comment-text'>"+b+"</p><div class='bottom-comment'><div class='comment-date'>Aug 24, 2014 @ 2:35 PM</div><ul class='comment-actions'><li class='reply'>Reply</li></ul></div></div></div>";
 	 $("#aftergroup").append($(c2));  
    }
 }
