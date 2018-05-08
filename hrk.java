@@ -15,7 +15,7 @@ public static void main(String[] args){
 	boolean interventiiChirurgicale=false;
 	//boolean nasteri=false;
 	
-	System.out.println(register(s,stilDeViata,cc,ob,nStres,aptSport,boliCardiace,tBoala,interventiiChirurgicale));
+	System.out.println(result(register(s,stilDeViata,cc,ob,nStres,aptSport,boliCardiace,tBoala,interventiiChirurgicale)));
 } 
 public static int register(String s,String stilDeViata,String cc,String ob,String nStres,boolean aptSport,boolean boliCardiace,boolean tBoala,boolean interventiiChirurgicale){
 	int rez=0;
@@ -61,5 +61,19 @@ public static int register(String s,String stilDeViata,String cc,String ob,Strin
 	}
 	
 	return rez;
+}
+
+public static String result(int rez){
+	String numePdf = null;
+	if(rez==-1){
+		numePdf="Nu sunteti apt de sport.";
+	}else if(rez>10000000 && rez<20000000){
+		
+		numePdf="BarbatAntrenament";
+	}else if(rez>20000000){
+		numePdf="FemeieAntrenament";
+	}
+	return numePdf;
+	
 }
 }
