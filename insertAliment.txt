@@ -1,0 +1,79 @@
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('','kcal/100gr');
+
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('apple','52kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('bagles','287kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('banana','89kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('black beans','341kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('blueberries','57kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('bread','275kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('broccoli','34kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('brown rice','367kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('carrots','41kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('chicken','215kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('chili soup','117kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('collard','32kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('cottage cheese','98kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('crackers','430kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('eggs','131kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('flaxseeds','534kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('burrito , bean and cheese ,frozen','221kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('grapefruit','32kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('grapes','57kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('green beans','31kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('ground beef','198kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('ham','245kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('hamburger bun','280kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('honey','64kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('milk','149kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('oats','152kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('orange','62kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('pancakes','239kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('pasta','288kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('peanut butter','589kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('pear','57kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('plum','46kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('pork','346kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('protein powder','130kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('pudding','139kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('raisins','108kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('salad','73kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('salmon','160kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('salsa','29kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('scrambled eggs','212kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('strawberries raw','32kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('string cheese','80kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('sweet potato','86kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('tuna','144kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('turkey','145kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('vegetables','80kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('waffles','285kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('wheat germ','382kcal/100gr');
+insert into aliment(DENUMIRE_ALIMENT,CALORII) values ('yogurt ','60kcal/100gr');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
