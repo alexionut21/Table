@@ -1,0 +1,78 @@
+ID_exercitiu Denumire exercitiu Poza_inceput Poza_sfarsit descriere grupa musculara repetari
+29	Leverage Iso Row	(BLOB)	(BLOB)		Back	4 sets ,12 reps
+36	"Burpee Pull-Up"	(BLOB)	(BLOB)		Back	5 sets ,5 reps
+45	Standing Calf Raises	(BLOB)	(BLOB)		Legs	4 sets ,20 reps
+52	Weighted Bench Dip	(BLOB)	(BLOB)		Triceps	4 sets ,20 reps
+60	Elbow to Knee	(BLOB)	(BLOB)		Abs	3 sets ,15 reps
+67	Incline Hammer Curls	(BLOB)	(BLOB)		Biceps	4 sets ,12 reps
+72	Jogging-Treadmill	(BLOB)	(BLOB)		Cardio	10 Minutes
+73	Jogging-Treadmill	(BLOB)	(BLOB)		Cardio	20 Minutes
+74	Jogging-Treadmill	(BLOB)	(BLOB)		Cardio	50 Minutes
+75	Rest					
+4	Smith Machine Shrug	(BLOB)	(BLOB)		Traps	4 sets , 20 reps
+5	Leverage Shrug	(BLOB)	(BLOB)		Traps	4 sets , 20 reps
+6	Standing Military Press	(BLOB)	(BLOB)		Shoulders	5 sets , 5 reps
+7	One-Arm Side Laterals	(BLOB)	(BLOB)		Shoulders	3 sets ,12 reps
+8	Power Partials	(BLOB)	(BLOB)		Shoulders	3 sets ,12 reps
+9	Seated Dumbbell Press	(BLOB)	(BLOB)		Shoulders	4 sets ,8 reps
+10	Reverse Flyes	(BLOB)	(BLOB)		Shoulders	3 sets ,12 reps
+11	Dumbbell One-Arm Rear Lateral Raise	(BLOB)	(BLOB)		Shoulders	4 sets ,10 reps
+12	Car Drivers	(BLOB)	(BLOB)		Shoulders	4 sets ,12 reps
+13	Front Plate Raise	(BLOB)	(BLOB)		Shoulders	4 sets ,12 reps
+14	Side Lateral Raise	(BLOB)	(BLOB)		Shoulders	3 sets ,12 reps
+15	Face Pull	(BLOB)	(BLOB)		Shoulders	4 sets ,10 reps
+16	Dumbbell Bench Press	(BLOB)	(BLOB)		Chest	4 sets ,8 reps
+17	Pushups	(BLOB)	(BLOB)		Chest	4 sets ,15 reps
+18	Dumbbell Flyes	(BLOB)	(BLOB)		Chest	4 sets ,12 reps
+19	Incline Dumbbell Press	(BLOB)	(BLOB)		Chest	4 sets ,8 reps
+20	Bodyweight Flyes	(BLOB)	(BLOB)		Chest	4 sets ,12 reps
+21	Incline Cable Flye	(BLOB)	(BLOB)		Chest	3 sets ,12 reps
+22	Incline Push-Up	(BLOB)	(BLOB)		Chest	"3 sets ,15 reps
+"
+23	Barbell Incline Bench Press Medium-Grip	(BLOB)	(BLOB)		Chest	"4 sets ,8 reps
+"
+24	Leverage Incline Chest Press	(BLOB)	(BLOB)		Chest	4 sets ,10 reps
+25	Straight-Arm Dumbbell Pullover	(BLOB)	(BLOB)		Chest	4 sets ,10 reps
+26	"
+Leverage Decline Chest Press"	(BLOB)	(BLOB)		Chest	4 sets ,8 reps
+27	V-Bar Pulldown	(BLOB)	(BLOB)		Back	4 sets ,8 reps
+28	Wide-Grip Lat Pulldown	(BLOB)	(BLOB)		Back	4 sets ,8 reps
+30	Straight-Arm Pulldown	(BLOB)	(BLOB)		Back	3 sets ,10 reps
+31	Elevated Cable Rows	(BLOB)	(BLOB)		Back	3 sets ,12 reps
+32	"
+Seated Cable Rows"	(BLOB)	(BLOB)		Back	3 sets ,12 reps
+33	Alternating Renegade Row	(BLOB)	(BLOB)		Back	3 sets ,12 reps
+34	Hyperextensions (Back Extensions)	(BLOB)	(BLOB)		Back	3 sets ,20 reps
+35	Superman	(BLOB)	(BLOB)		Back	3 sets ,20 reps
+37	Single-Leg Press	(BLOB)	(BLOB)		Legs	4 sets ,12 reps
+38	Barbell Full Squat	(BLOB)	(BLOB)		Legs	5 sets ,5 reps
+39	Front Squats With Two Kettlebells	(BLOB)	(BLOB)		Legs	3 sets ,20 reps
+40	Rope Jumping	(BLOB)	(BLOB)		Legs	5 minutes
+42	Romanian Deadlift With Dumbbells	(BLOB)	(BLOB)		Legs	3 sets ,12 reps
+43	"
+Lying Leg Curls"	(BLOB)	(BLOB)		Legs	4 sets ,12 reps
+44	Smith Machine Calf Raise	(BLOB)	(BLOB)		Legs	4 sets ,20 reps
+46	Thigh Adductor	(BLOB)	(BLOB)		Legs	3 sets ,12 reps
+47	Thigh Abductor	(BLOB)	(BLOB)		Legs	3 sets ,12 reps
+48	Dips - Triceps Version	(BLOB)	(BLOB)		Triceps	4 sets ,8 reps
+49	Decline EZ Bar Triceps Extension	(BLOB)	(BLOB)		Triceps	4 sets ,8 reps
+50	Close-Grip Barbell Bench Press	(BLOB)	(BLOB)		Triceps	5 sets ,5 reps
+51	Triceps Pushdown - V-Bar Attachment	(BLOB)	(BLOB)		Triceps	4 sets ,12 reps
+53	Kneeling Cable Triceps Extension	(BLOB)	(BLOB)		Triceps	3 sets ,12 reps
+54	EZ-Bar Skullcrusher	(BLOB)	(BLOB)		Triceps	4 sets ,8 reps
+55	Cable Lying Triceps Extension	(BLOB)	(BLOB)		Triceps	3 sets ,12 reps
+56	Lying Dumbbell Tricep Extension	(BLOB)	(BLOB)		Triceps	4 sets ,12 reps
+57	Suspended Fallout	(BLOB)	(BLOB)		Abs	4 sets ,20 reps
+58	Decline Reverse Crunch	(BLOB)	(BLOB)		Abs	4 sets ,12 reps
+59	Spider Crawl	(BLOB)	(BLOB)		Abs	3 sets ,15 reps
+61	Cocoons	(BLOB)	(BLOB)		Abs	3 sets ,20 reps
+62	Plate Twist	(BLOB)	(BLOB)		Abs	4 sets ,20 reps
+63	Decline Crunch	(BLOB)	(BLOB)		Abs	3 sets ,20 reps
+64	Exercise Ball Pull-In	(BLOB)	(BLOB)		Abs	3 sets ,20 reps
+65	Barbell Ab Rollout	(BLOB)	(BLOB)		Abs	3 sets ,8 reps
+66	Reverse Crunch	(BLOB)	(BLOB)		Abs	3 sets ,15 reps
+68	Wide-Grip Standing Barbell Curl	(BLOB)	(BLOB)		Biceps	4 sets ,12 reps
+69	Spider Curl	(BLOB)	(BLOB)		Biceps	4 sets ,12 reps
+70	EZ-Bar Curl	(BLOB)	(BLOB)		Biceps	4 sets ,12 reps
+71	Hammer Curls	(BLOB)	(BLOB)		Biceps	4 sets ,10 reps
+79	test	(BLOB)	(BLOB)	test	Biceps	22

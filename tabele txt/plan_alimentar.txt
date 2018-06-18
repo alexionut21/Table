@@ -1,0 +1,7 @@
+ID_PLAN_ALIMENTAR DENUMIRE_PLAN_ALIMENTAR 
+2	EctomorphLW
+3	MesomorphLW
+4	EndomorphLW
+5	EndomorphGM
+6	MesomorphGM
+7	EctomorphGM

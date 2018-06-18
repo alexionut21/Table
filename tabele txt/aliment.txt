@@ -1,0 +1,55 @@
+ID_ALIMENT DENUMIRE_ALIMENT POZA_INCEPUT CALORII
+12	chili soup	(BLOB)	117kcal/100gr
+13	collard	(BLOB)	32kcal/100gr
+14	cottage cheese	(BLOB)	98kcal/100gr
+15	crackers	(BLOB)	430kcal/100gr
+1	yogurt 	(BLOB)	60kcal/100gr
+2	apple	(BLOB)	52kcal/100gr
+3	bagles	(BLOB)	287kcal/100gr
+5	black beans	(BLOB)	341kcal/100gr
+10	carrots	(BLOB)	41kcal/100gr
+11	chicken	(BLOB)	215kcal/100gr
+26	milk	(BLOB)	149kcal/100gr
+32	pear	(BLOB)	57kcal/100gr
+40	salsa	(BLOB)	29kcal/100gr
+45	tuna	(BLOB)	144kcal/100gr
+4	banana	(BLOB)	89kcal/100gr
+6	blueberries	(BLOB)	57kcal/100gr
+7	bread	(BLOB)	275kcal/100gr
+8	broccoli	(BLOB)	34kcal/100gr
+9	brown rice	(BLOB)	367kcal/100gr
+16	eggs	(BLOB)	131kcal/100gr
+17	flaxseeds	(BLOB)	534kcal/100gr
+18	burrito , bean and cheese ,frozen	(BLOB)	221kcal/100gr
+19	grapefruit	(BLOB)	32kcal/100gr
+20	grapes	(BLOB)	57kcal/100gr
+21	green beans	(BLOB)	31kcal/100gr
+22	ground beef	(BLOB)	198kcal/100gr
+23	ham	(BLOB)	245kcal/100gr
+24	hamburger bun	(BLOB)	280kcal/100gr
+25	honey	(BLOB)	64kcal/100gr
+27	oats	(BLOB)	152kcal/100gr
+28	orange	(BLOB)	62kcal/100gr
+29	pancakes	(BLOB)	239kcal/100gr
+30	pasta	(BLOB)	288kcal/100gr
+31	peanut butter	(BLOB)	589kcal/100gr
+33	plum	(BLOB)	46kcal/100gr
+34	pork	(BLOB)	346kcal/100gr
+35	protein powder	(BLOB)	130kcal/100gr
+36	pudding	(BLOB)	139kcal/100gr
+37	raisins	(BLOB)	108kcal/100gr
+38	salad	(BLOB)	73kcal/100gr
+39	salmon	(BLOB)	160kcal/100gr
+41	scrambled eggs	(BLOB)	212kcal/100gr
+53	a	(BLOB)	100
+42	strawberries raw	(BLOB)	32kcal/100gr
+43	string cheese	(BLOB)	80kcal/100gr
+44	sweet potato	(BLOB)	86kcal/100gr
+46	turkey	(BLOB)	145kcal/100gr
+47	vegetables	(BLOB)	80kcal/100gr
+48	waffles	(BLOB)	285kcal/100gr
+49	wheat germ	(BLOB)	382kcal/100gr
+50	yogurt 	(BLOB)	60kcal/100gr
+51	almonds	(BLOB)	578kcal/100gr
+52	asparagus	(BLOB)	20kcal/100gr
+54	TTT	(BLOB)	100

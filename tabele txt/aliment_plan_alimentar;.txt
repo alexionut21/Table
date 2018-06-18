@@ -1,0 +1,15 @@
+ID_plan_alimentar; ID_ALIMENT TIP_MASA
+7	1	Snack
+7	4	Snack
+7	4	Snack1
+7	6	Breakfast
+7	8	Lunch
+7	9	Lunch
+7	11	Lunch
+7	27	Breakfast
+7	44	Dinner
+7	45	Dinner
+7	50	Breakfast
+7	51	Snack
+7	51	Snack1
+7	52	Dinner
