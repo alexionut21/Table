@@ -1,0 +1,801 @@
+sedentarMesomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,25,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,25,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,25,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,16,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,16,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,27,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,27,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,27,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,30,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,30,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,30,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,39,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,39,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,39,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,38,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,38,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,38,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,11,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,11,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,11,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001521,75,'Sunday');
+
+
+sedentarEndomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,19,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,19,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,52,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,52,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,52,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,28,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,28,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,28,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,70,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,70,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,40,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,40,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,40,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,38,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,38,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,38,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,15,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,15,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,15,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,74,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001531,75,'Sunday');
+
+
+semiActivEctomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,17,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,17,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,51,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,51,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,32,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,32,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,32,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,71,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,71,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,39,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,39,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,39,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,43,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,12,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,12,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,12,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001512,75,'Sunday');
+
+
+semiActivMesomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,22,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,22,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,22,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,54,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,54,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,54,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,28,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,28,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,28,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,69,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,69,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,37,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,37,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,37,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,42,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,42,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,8,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,8,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,8,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001522,75,'Sunday');
+
+
+semiActivEndomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,16,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,16,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,56,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,56,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,56,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,28,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,28,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,28,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,71,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,71,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,42,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,42,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,43,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,13,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,13,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,13,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,59,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,61,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001532,75,'Sunday');
+
+
+
+activEctomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,19,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,19,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,54,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,54,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,54,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,30,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,30,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,30,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,68,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,68,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,44,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,44,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,44,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,43,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,8,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,8,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,8,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001513,75,'Sunday');
+
+
+activMesomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,22,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,22,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,22,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,49,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,49,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,49,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,32,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,32,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,32,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,69,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,69,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,37,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,37,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,37,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,43,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,9,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,9,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,9,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,57,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,58,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001523,75,'Sunday');
+
+
+activEndomorfLowStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,17,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,17,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,47,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,47,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,47,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,36,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,36,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,36,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,67,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,67,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,67,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,40,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,40,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,40,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,43,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,7,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,7,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,7,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,59,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,61,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001533,75,'Sunday');
+
+
+sedentarEctomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,20,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,21,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,13,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,14,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,62,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,29,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,30,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,37,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,38,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001111,75,'Sunday');
+
+
+sedentarMesomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,7,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,8,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,63,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,31,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,32,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,53,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,37,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,38,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001121,75,'Sunday');
+
+
+sedentarEndomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,20,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,22,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,9,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,10,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,63,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,36,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,29,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,53,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,39,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,40,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001131,74,'Sunday');
+
+
+semiActivEctomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,21,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,12,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,13,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,57,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,58,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,28,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,35,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,48,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,50,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,41,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,40,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001112,75,'Sunday');
+
+
+semiActivMesomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,23,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,24,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,13,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,9,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,57,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,58,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,31,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,34,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,49,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,39,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,41,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001122,75,'Sunday');
+
+
+semiActivEndomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,26,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,14,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,15,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,62,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,65,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,29,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,36,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,48,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,55,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,40,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,45,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001132,75,'Sunday');
+
+
+activEctomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,23,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,13,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,8,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,61,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,59,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,33,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,27,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,50,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,49,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,43,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,42,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001113,75,'Sunday');
+
+
+activMesomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,22,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,15,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,9,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,61,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,59,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,32,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,26,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,48,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,40,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,42,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001123,75,'Sunday');
+
+
+activEndomorfMidStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,6,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,10,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,60,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,66,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,36,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,34,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,52,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,56,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,46,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,47,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001133,75,'Sunday');
+
+
+sedentarEctomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,39,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,40,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,5,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,9,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,60,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,66,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,29,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,27,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,55,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,53,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,24,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,25,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,71,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,69,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001011,75,'Sunday');
+
+
+sedentarMesomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,38,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,41,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,4,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,10,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,60,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,66,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,35,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,36,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,48,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,51,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,20,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,26,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,71,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,69,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001021,75,'Sunday');
+
+
+sedentarEndomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,39,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,44,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,41,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,4,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,12,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,64,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,59,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,34,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,37,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,55,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,54,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,25,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,22,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,68,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,70,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001031,75,'Sunday');
+
+
+semiActivEctomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,30,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,28,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,25,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,26,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,52,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,56,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,38,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,37,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,39,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,40,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,7,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,8,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,6,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,66,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001012,75,'Sunday');
+
+
+semiActivMesomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,33,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,27,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,16,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,17,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,53,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,44,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,46,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,47,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,40,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,9,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,12,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,66,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001022,75,'Sunday');
+
+
+semiActivEndomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,35,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,31,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,18,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,19,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,56,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,48,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,47,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,39,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,46,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,15,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,14,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,61,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,57,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001032,75,'Sunday');
+
+
+activEctomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,35,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,30,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,70,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,68,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,20,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,21,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,55,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,49,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,44,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,46,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,6,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,60,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,64,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001013,75,'Sunday');
+
+
+activMesomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,29,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,36,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,69,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,19,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,22,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,51,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,53,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,44,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,46,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,9,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,60,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,64,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001023,75,'Sunday');
+
+
+activEndomorfHighStressSlabire
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,32,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,35,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,61,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,71,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,74,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,26,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,25,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,54,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,41,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,74,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,44,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,43,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,42,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,46,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,10,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,60,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,64,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10001033,75,'Sunday');
+
+
+sedentarEctomorfLowStressHipertrofie
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,18,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,40,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,29,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,28,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,30,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,40,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,44,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,40,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,7,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,8,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,9,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,69,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,70,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,49,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,50,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010511,75,'Sunday');
+
+
+sedentarMesomorfLowStressHipertrofie
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,18,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,35,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,29,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,28,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,30,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,39,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,40,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,44,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,6,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,7,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,8,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,9,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,68,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,69,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,70,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,52,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,49,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,50,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,10,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,60,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,64,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010521,75,'Sunday');
+
+
+sedentarEndomorfLowStressHipertrofie
+
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,72,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,19,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,18,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,17,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,16,'Monday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,40,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,35,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,29,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,28,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,30,'Tuesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,72,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,39,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,40,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,43,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,44,'Wednesday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,40,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,6,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,7,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,8,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,9,'Thursday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,72,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,68,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,69,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,70,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,52,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,49,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,50,'Friday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,72,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,10,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,13,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,60,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,64,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,75,'Saturday');
+insert into exercitiu_antrenament (id_antrenament,id_exercitiu,zi_ex) values(10010531,75,'Sunday');
