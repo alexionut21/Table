@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title> Test for date picker</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.3/themes/south-street/ui.all.css" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('#validMinMaxDatepicker').datepicker({ minDate: -7, maxDate: +1 });
+
+            $('#validateForm').validate({ 
+                errorPlacement: $.datepicker.errorPlacement, 
+                rules: {
+                    validMinMaxDatepicker: {
+                        required: true,
+                        dpDate: true
+                    }
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <form id="validateForm" action="#" >
+        <p>
+            Select Date:
+            <input type="text"  id="validMinMaxDatepicker" name="validMinMaxDatepicker"  class="dpDate"> 
+			<input type="text" oninput="this.value = this.value.replace(/[^A-Za-z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" > 
+			<input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" > 
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
